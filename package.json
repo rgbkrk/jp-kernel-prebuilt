@@ -1,5 +1,5 @@
 {
-    "name": "jp-kernel",
+    "name": "jp-kernel-prebuilt",
     "version": "0.0.1",
     "description": "Generic Node.js kernel for the Jupyter notebook",
     "keywords": [
@@ -25,7 +25,7 @@
         "url": "https://github.com/n-riesco/jp-kernel.git"
     },
     "dependencies": {
-        "jmp": "0.4.x",
+        "@captainsafia/jmp-prebuilt": "1.1.0",
         "nel": "0.5.x"
     },
     "devDependencies": {
