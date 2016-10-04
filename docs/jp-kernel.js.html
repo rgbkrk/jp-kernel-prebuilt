@@ -19,11 +19,11 @@
 
     <h1 class="page-title">Source: jp-kernel.js</h1>
 
-    
 
 
 
-    
+
+
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>#!/usr/bin/env node
@@ -68,9 +68,9 @@ var fs = require("fs");
 var path = require("path");
 
 var Session = require("nel").Session; // Javascript session
-var Message = require("jmp").Message; // IPython/Jupyter protocol message
-var Socket = require("jmp").Socket; // IPython/Jupyter protocol socket
-var zmq = require("jmp").zmq; // ZMQ bindings
+var Message = require("@captainsafia/jmp-prebuilt").Message; // IPython/Jupyter protocol message
+var Socket = require("@captainsafia/jmp-prebuilt").Socket; // IPython/Jupyter protocol socket
+var zmq = require("@captainsafia/jmp-prebuilt").zmq; // ZMQ bindings
 
 
 // Setup logging helpers

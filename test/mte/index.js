@@ -46,7 +46,7 @@ var path = require("path");
 var util = require("util");
 var uuid = require("node-uuid");
 
-var jmp = require("jmp");
+var jmp = require("@captainsafia/jmp-prebuilt");
 var zmq = jmp.zmq;
 var Kernel = require("../..");
 
