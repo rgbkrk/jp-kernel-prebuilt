@@ -25,7 +25,7 @@
     "url": "https://github.com/n-riesco/jp-kernel.git"
   },
   "dependencies": {
-    "@captainsafia/jmp-prebuilt": "1.1.0",
+    "jmp-prebuilt": "^0.5.1",
     "nel": "0.5.x"
   },
   "devDependencies": {
